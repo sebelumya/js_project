@@ -1,0 +1,84 @@
+* {
+    
+    margin-left: 50px;
+    padding: 0px;
+    margin: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2em;
+    color: rgb(255, 255, 255);
+}
+body {
+    background-color: rgb(192, 182, 182);
+}
+ header {    
+    position: absolute;
+    background-color: rgb(173, 169, 169);
+    width: 100%;
+    height: 10%;
+    text-align: center;
+    top: 0%;
+}
+main {
+    
+    margin-top: 20%;
+}
+[type = "text"] {
+    width: 30%;
+    display: block;
+    border: none;
+    padding: 1vh;
+    background-color: rgb(252, 217, 217);
+    margin: 1% auto;
+}
+input:focus {
+    outline: none;
+}
+
+[type = "checkbox"] {
+
+    min-height: 3.5vh;
+    min-width: 3.5vh;
+    position: relative;
+    color: teal;
+    left: 33%;  
+    top: 4px;
+
+
+}
+p {
+    position: relative;
+    display: inline-block;
+    left: 33%;  
+    padding-right: 10px;
+    color: rgb(255, 255, 255);
+    
+}
+
+ol {
+    position: absolute;
+    float: left;
+    top: 11%;
+    background-color: #555;
+    padding: 10px;
+    width: 30%;
+    margin-left: 0.5%;
+}
+ol li {
+    font-size: .5em;
+    margin-left: 5%;
+}
+button {
+    position: relative;
+    float: right;
+    right: 33.5%;
+    background-color: #555;
+    border: none;
+    padding: 0.5vh;
+}
+button:active {
+   
+    background-color: #444;
+}
+button:focus {
+    outline: none;
+}
